@@ -18,10 +18,10 @@ const HeroSection = () => {
             initial={{opacity: 0, y:20}}
             animate={{ opacity: 1, y: 0}}
             transition={{ duration: 0.8}}
-            className="absolute top-1/3 transform -translate-x-1/2 -translate-y-1/2 text-center w-full"
+            className="flex flex-col justify-center items-center h-full text-center px-6"
             >
                 <div className="max-w-4xl mx-auto px-16 sm:px-12">
-                    <h1 className="text-5xl font-bold text-white mb-4">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
                         Start your journey to finding the perfect place to call home 
                     </h1>
                     <p className="text-xl text-white mb-8">
@@ -32,7 +32,7 @@ const HeroSection = () => {
                          value="serach query"
                          onChange={() => {}}
                          placeholder="Search by city, neighborhood or area"
-                         className="w-full max-w0lg rounded-none rounded-l-xl border-none bg-white h-12" />
+                         className="w-full max-w-lg rounded-none rounded-l-xl border-none bg-white h-12" />
                          <Button onClick={() => {}}
                          className="bg-secondary-500 text-white rounded-none rounded-r-xl border-none hover:bg-secondary-600 h-12">
                                 Search
