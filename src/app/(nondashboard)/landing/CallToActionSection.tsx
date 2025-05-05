@@ -12,14 +12,14 @@ const CallToActionSection = () => {
          src="/landing-call-to-action.jpg"
          alt="Rentiful Search Section Background"
          fill
-         className="object-cover object-center z-10"
+         className="object-cover object-center z-0"
          />
-         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center">
+         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center z-10">
             <motion.div initial={{ opacity: 0, y: 20 }}
                         transition={{ duration: 0.5 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-            className="relative z-10 max-w-4xl xl:max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 py-12"
+            className="relative z-20 max-w-4xl xl:max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 py-12"
             >
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="mb-6 md:mb-0 md:mr-10">
